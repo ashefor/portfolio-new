@@ -1,0 +1,19 @@
+.landingpage{
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.landingpage span{
+    display: table;
+}
+.landing-meta{
+    display: table-cell;
+    vertical-align: middle
+}
+
+@media all and (max-width: 991px){
+    .landingpage span{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
