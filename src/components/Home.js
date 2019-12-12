@@ -19,7 +19,13 @@ const Home = props => {
         const sidebar = document.querySelector(".side-bar")
         const menu = document.querySelector(".menu-button");
         menu.classList.toggle("menu-button--open");
-        sidebar.classList.toggle("d-block");
+        sidebar.classList.toggle("sm-d-block");
+    }
+    const closeMenuOnClick = () => {
+        const sidebar = document.querySelector(".side-bar")
+        const menu = document.querySelector(".menu-button");
+        menu.classList.remove("menu-button--open");
+        sidebar.classList.remove("sm-d-block");
     }
     return <React.Fragment>
         <Layout>
@@ -36,7 +42,7 @@ const Home = props => {
                 <Navbar />
             </Sider>
             <div className="navbar-toggle">
-                <Link smooth to="#home">
+                <Link smooth to="#home" onClick={closeMenuOnClick}>
                     <img src={Logo} alt="" width="50" />
                 </Link>
                 <button onClick={handleClick} className="menu-button">
