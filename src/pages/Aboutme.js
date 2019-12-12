@@ -1,6 +1,7 @@
 import React from 'react';
 import {Row, Col, Button} from 'antd';
 import classes from '../styles/aboutme.module.css';
+import resume from '../assets/files/Ashefor Michael.pdf';
 const Aboutme = props => {
     return <React.Fragment>
         <div>
@@ -24,7 +25,7 @@ const Aboutme = props => {
              </li>
            </ul>
            <Button className="uppercase-text margin-6-top custom-btn" size="large">
-             download resume
+             <a href={resume} style={{transition: 'unset'}} download>download resume</a>
            </Button>
          </div>
          </Col>
