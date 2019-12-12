@@ -1,0 +1,85 @@
+/* The Masonry Container */
+.masonry {
+    margin: 1.5em auto;
+    max-width: 768px;
+    column-gap: 1.5em;
+  }
+  
+  /* The Masonry Brick */
+  .brick {
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    display: inline-block;
+    background-color: rgb(238, 238, 238, .5);
+    border-radius: 10px;
+  }
+  
+  img{
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .brick figure{
+    margin: 0;
+    position: relative;
+    overflow: hidden
+  }
+  .brick figure a{
+      display: block;
+      color: #000;
+      text-decoration: none;
+      position: relative;
+  }
+  .brick figure figcaption{
+    opacity: 0;
+    text-align: center;
+    height: calc(100% - 60px);
+    width: calc(100% - 60px);
+    left: 30px;
+    top: 30px;
+    position: absolute;
+  }
+  .brick figure figcaption h4{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    width: 100%;
+    padding: 0 35px;
+    text-align: center;
+    font-weight: 600;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    z-index: 2
+  }
+  .brick figure:hover img{
+    -ms-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    opacity: 0.15;
+  }
+  .brick figure:hover figcaption{
+    opacity: 1;
+  }
+  /* Masonry on large screens */
+  @media only screen and (min-width: 1024px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
+  
+  /* Masonry on medium-sized screens */
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
+  
+  /* Masonry on small screens */
+  @media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
