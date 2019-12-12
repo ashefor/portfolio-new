@@ -19,7 +19,7 @@ const Home = props => {
         const sidebar = document.querySelector(".side-bar")
         const menu = document.querySelector(".menu-button");
         menu.classList.toggle("menu-button--open");
-        sidebar.classList.toggle("add-opacity");
+        sidebar.classList.toggle("d-block");
     }
     return <React.Fragment>
         <Layout>
