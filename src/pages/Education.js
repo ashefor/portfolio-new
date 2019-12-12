@@ -17,12 +17,12 @@ return <React.Fragment>
                     </span>
                     </Col>
                    <Col xs={20} sm={20} md={20} lg={20} xl={20}>
-                       <span className="bold-600 uppercase-text margin-3-b d-block black-font">University of Lagos</span>
+                       <span className="bold-600 uppercase-text margin-3-b d-block black-font">Google Web Certification (Andela & PluralSight)</span>
                        <p>
                        <span className="uppercase-text">
-                               Comp Eng
+                       Mobile Web Specialist
                                <br />
-                               2012 - 2018
+                               Jan 2019 - Dec 2019
                            </span>
                        </p>
                    </Col>
@@ -36,12 +36,12 @@ return <React.Fragment>
                     </span>
                     </Col>
                    <Col xs={20} sm={20} md={20} lg={20} xl={20}>
-                       <span className="bold-600 uppercase-text margin-3-b d-block black-font">University of Lagos</span>
+                       <span className="bold-600 uppercase-text margin-3-b d-block black-font">Microsoft with Andela (ALCWithMicrosoft)</span>
                        <p>
                        <span className="uppercase-text">
-                               Comp Eng
+                       Front-End Web Development
                                <br />
-                               2012 - 2018
+                               Jan 2018 - May 2018
                            </span>
                        </p>
                    </Col>
@@ -58,7 +58,7 @@ return <React.Fragment>
                        <span className="bold-600 uppercase-text margin-3-b d-block black-font">University of Lagos</span>
                        <p>
                        <span className="uppercase-text">
-                               Comp Eng
+                               Computer Engineering
                                <br />
                                2012 - 2018
                            </span>
@@ -74,12 +74,12 @@ return <React.Fragment>
                     </span>
                     </Col>
                    <Col xs={20} sm={20} md={20} lg={20} xl={20}>
-                       <span className="bold-600 uppercase-text margin-3-b d-block black-font">University of Lagos</span>
+                       <span className="bold-600 uppercase-text margin-3-b d-block black-font">King's College Lagos</span>
                        <p>
                            <span className="uppercase-text">
-                               Comp Eng
+                               WASSCE/SSCE
                                <br />
-                               2012 - 2018
+                              2001 - 2007
                            </span>
                        </p>
                    </Col>
