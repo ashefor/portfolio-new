@@ -9,7 +9,6 @@ const Skills = props => {
                 <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                     <div>
                         <h4 className="uppercase-text bold-700 margin-13-b heading-text">Skills</h4>
-                        <p>Lorem Ipsum dummy bla bla</p>
                         <Row>
                             <Col xs={24} sm={24} md={8} >
                                 <div>

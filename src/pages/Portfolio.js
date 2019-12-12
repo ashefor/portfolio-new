@@ -19,12 +19,12 @@ const Portfolio = props => {
                     <div>
                         <h4 className="uppercase-text bold-700 margin-13-b heading-text">Portfolio</h4>
                         <Row>
-                            <Col className="margin-7-b" xs={24} sm={24} md={6}>
+                            <Col className={`${classes['columns']} margin-7-b`} xs={24} sm={24} md={7}>
                                 <span>
-                                    Find some of my works
+                                    Please find screenshots of my previous works
                                 </span>
                             </Col>
-                            <Col xs={24} sm={24} md={18}>
+                            <Col xs={24} sm={24} md={17} className={classes['columns']}>
                                 <div className={classes['masonry']}>
                                     <div className={classes['brick']}>
                                         <figure>

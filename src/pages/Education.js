@@ -7,8 +7,8 @@ return <React.Fragment>
         <Col xs={24} sm={24} md={20} lg={16} xl={16}>
         <div>
            <h4 className="uppercase-text bold-700 margin-13-b heading-text">Education</h4>
-           <p>Lorem Ipsum dummy bla bla</p>
-           <Row>
+           <p><em>An investment in knowledge pays the best interest. –  <strong>Benjamin Franklin</strong></em></p>
+           <Row className="margin-6-top">
                <Col className="margin-7-b" xs={24} sm={24} md={12} >
                <div>
                    <Col xs={4} sm={4} md={4} lg={4} xl={4}>

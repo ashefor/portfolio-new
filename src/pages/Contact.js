@@ -9,7 +9,6 @@ const Contact = props => {
                 <Col xs={24} sm={24} md={20} lg={16} xl={16}>
                     <div>
                         <h4 className="uppercase-text bold-700 margin-13-b heading-text">Contact</h4>
-                        <p>Lorem Ipsum dummy bla bla</p>
                         <Row>
                             <Col className="margin-7-b no-padding" xs={24} sm={24} md={12} >
                                 <Contactform />
