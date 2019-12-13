@@ -1,15 +1,15 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import classes from '../styles/portfolio.module.css';
-import filmhub from '../assets/images/filmhub.png';
-import musicfest from '../assets/images/musicfest.png';
-import radrecipe from '../assets/images/radrecipe.png';
-import shopmart from '../assets/images/shopmart.png';
-import newsheadline from '../assets/images/newsheadline.png';
-import wedding from '../assets/images/wedding.png';
-import bordman from '../assets/images/bordman.png';
-import applenotes from '../assets/images/applenotes.png';
-import randomquotes from '../assets/images/randomquotes.png';
+import filmhub from '../assets/images/filmhub.jpg';
+import musicfest from '../assets/images/musicfest.jpg';
+import radrecipe from '../assets/images/radrecipe.jpg';
+import shopmart from '../assets/images/shopmart.jpg';
+import newsheadline from '../assets/images/newsheadline.jpg';
+import wedding from '../assets/images/wedding.jpg';
+import bordman from '../assets/images/bordman.jpg';
+import applenotes from '../assets/images/applenotes.jpg';
+import randomquotes from '../assets/images/randomquotes.jpg';
 
 const Portfolio = props => {
     return <React.Fragment>
