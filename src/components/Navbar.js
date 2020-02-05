@@ -57,18 +57,15 @@ const Navbar = props => {
                 </Menu.ItemGroup>
                 <div className="navbar-widget padding-15-top">
                     <div className="navbar-footer-widget">
-                        <Link to="">
+                        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/michaelashefor'>
                             <Icon type="twitter" />
-                        </Link>
-                        <Link to="">
-                            <Icon type="facebook" />
-                        </Link>
-                        <Link to="">
+                        </a>
+                        <a target="_blank" rel="noopener noreferrer" href='https://github.com/ashefor'>
                             <Icon type="github" />
-                        </Link>
-                        <Link to="">
+                        </a>
+                        <a target="_blank" rel="noopener noreferrer" href='https://linkedin.com/in/michaelashefor/'>
                             <Icon type="linkedin" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </Menu>

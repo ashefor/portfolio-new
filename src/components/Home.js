@@ -51,57 +51,54 @@ const Home = props => {
             </div>
             <Layout style={{ marginLeft: 250 }} className="body-stack">
                 <Content id="home">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px'  }}>
                         <Landing />
                     </div>
                 </Content>
                 <Content className="main-body" id="about-me">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Aboutme />
                     </div>
                 </Content>
                 <Content className="main-body" id="skills">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Skills />
                     </div>
                 </Content>
                 <Content className="main-body" id="education">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Education />
                     </div>
                 </Content>
                 <Content className="main-body" id="employment">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Employment />
                     </div>
                 </Content>
                 <Content className="main-body" id="portfolio">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Portfolio />
                     </div>
                 </Content>
                 <Content className="main-body" id="contact">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Contact />
                     </div>
                 </Content>
                 <Footer className="footer">
-                    <div style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Row className="footer-row">
                             <Col xs={24} sm={18} md={16}>
                                 <div className="social-footer left-text">
-                                    <Link to="">
+                                    <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/michaelashefor'>
                                         <Icon type="twitter" style={{ fontSize: 22 }} />
-                                    </Link>
-                                    <Link to="">
-                                        <Icon type="facebook" style={{ fontSize: 22 }} />
-                                    </Link>
-                                    <Link to="">
+                                    </a>
+                                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/ashefor'>
                                         <Icon type="github" style={{ fontSize: 22 }} />
-                                    </Link>
-                                    <Link to="">
+                                    </a>
+                                    <a target="_blank" rel="noopener noreferrer" href='https://linkedin.com/in/michaelashefor/'>
                                         <Icon type="linkedin" style={{ fontSize: 22 }} />
-                                    </Link>
+                                    </a>
                                 </div>
                             </Col>
                             <Col xs={24} sm={6} md={8} className="xs-margin-10-top centered-text">
@@ -111,7 +108,7 @@ const Home = props => {
                             </Col>
                         </Row>
                     </div>
-                    <div className="bottom-footer" style={{ maxWidth: '1000px', margin: 'auto' }}>
+                    <div className="bottom-footer" style={{ maxWidth: '1000px', margin: 'auto' , padding: '0 15px 0 15px' }}>
                         <Row>
                             <Col sm={24} md={24} className="centered-text">
                                 <span className="uppercase-text"> <Icon type="copyright" /> {new Date().getFullYear()} Michael Ashefor</span>

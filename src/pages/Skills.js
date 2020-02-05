@@ -114,6 +114,21 @@ const Skills = props => {
                                     <Row>
                                         <Col xs={3} sm={3} md={3} lg={3} xl={3}>
                                             <span>
+                                            <Icon component={()=><i className="devicon-react-original colored"></i>
+                                        } style={{fontSize: 20}}/>
+                                            </span>
+                                        </Col>
+                                        <Col xs={21} sm={21} md={21} lg={21} xl={21}>
+                                            <p>
+                                                <span className="uppercase-text">
+                                                   react native
+                                                </span>
+                                            </p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+                                            <span>
                                             <Icon component={()=><i className="devicon-bootstrap-plain colored"></i>
                                             } style={{fontSize: 20}}/>
                                             </span>
